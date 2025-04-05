@@ -1,0 +1,13 @@
+name: nekoharuki-introduction
+
+on:
+    push:
+
+jobs:
+    push_nekoharuki:
+        runs-on: ubuntu-latest
+        steps:
+            - name: nekoharuki-introduction-hello
+              run: |
+                echo "nekoharuki hello"
+                
