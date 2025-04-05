@@ -40,7 +40,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: nignx-image-url
-          path: cicd-section/api/nignx-image-url.txt
+          path: nignx-image-url.txt
 
   deploy:
     runs-on: ubuntu-latest
